@@ -1,0 +1,110 @@
+/*1 rem = 10px
+ .1 rem = 1px
+*/
+
+:root {
+  /* ### Primary */
+    --Pink: hsl(322, 100%, 66%);
+  /* ### Neutral */
+    --Very_Pale_Cyan: hsl(193, 100%, 96%);
+    --Very_Dark_Cyan: hsl(192, 100%, 9%);
+    --Grayish_Blue: hsl(208, 11%, 55%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Open sans',sans-serif;
+}
+
+.bg {
+    position: absolute;
+  	background-image: url('./images/bg-hero-mobile.svg');
+    z-index: 1000;
+    background-size: cover;  
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    background-color: var(--Very_Pale_Cyan);
+}
+
+header .header__logo {
+    width: 12rem;
+    /* height: 3rem; */
+    margin-left: 2.5rem;
+    /* background-image: url(./images/logo.svg); */
+    background-size: 1rem;
+    background-repeat: no-repeat;
+}
+
+header .header__button {
+    width: 12rem;
+    height: 3rem;
+    border-style: unset;
+    background-color: white;
+    border-radius: 1.5em;
+    margin-right: 2.5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--Very_Dark_Cyan);
+    box-shadow: 0 .4rem .8rem rgba(0, 0, 0, 0.08);
+}
+
+.section-one{
+    width: 100%;
+    min-width: 32rem;
+    padding: 2rem;
+    background-color: var(--Very_Pale_Cyan);
+
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+}
+
+.section-one .section-one__title {
+    padding-bottom: 3rem;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: var(--Very_Dark_Cyan);
+}
+
+.section-one .section-one__content{
+    /* padding: 2rem 0; */
+    padding-bottom: 3rem;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    color: var(--Very_Dark_Cyan);
+}
+
+.section-one .section-one__botton {
+    width: 24rem;
+    height: 5rem;
+    margin-bottom: 4rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    background-color: var(--Pink);
+    border-style: unset;
+    border-radius: 1.5em;
+    color: white;
+    box-shadow: 0 .4rem .8rem rgba(0, 0, 0, 0.08);
+}
+
+.section-one .section-one__img{
+    width: 32rem;
+    /* height: 35rem; */
+}
