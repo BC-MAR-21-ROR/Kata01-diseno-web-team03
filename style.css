@@ -26,18 +26,19 @@ body {
 }
 
 .bg {
-  position: absolute;
-  background-image: url("./images/bg-hero-mobile.svg");
-  z-index: 1000;
+  min-height: 100vh;
+  background: url("./images/bg-hero-mobile.svg") no-repeat top left;
   background-size: cover;
+  background-color: var(--Very_Pale_Cyan);
 }
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 10rem;
-  background-color: var(--Very_Pale_Cyan);
+  /* background-color: var(--Very_Pale_Cyan); */
 }
 
 header .header__logo {
@@ -45,8 +46,8 @@ header .header__logo {
   /* height: 3rem; */
   margin-left: 2.5rem;
   /* background-image: url(./images/logo.svg); */
-  background-size: 1rem;
-  background-repeat: no-repeat;
+  /* background-size: 1rem;
+  background-repeat: no-repeat; */
 }
 
 header .header__button {
@@ -65,16 +66,14 @@ header .header__button {
 .section-one {
   width: 100%;
   min-width: 32rem;
-  padding: 2rem;
-  background-color: var(--Very_Pale_Cyan);
-
-  background-repeat: no-repeat;
-  width: 100%;
+  padding: 5.5rem 3rem;
+  /* background-color: var(--Very_Pale_Cyan); */
   text-align: center;
+  z-index: 1;
 }
 
 .section-one .section-one__title {
-  padding-bottom: 3rem;
+  padding: 0rem 2rem 3rem 2rem;
   font-size: 2.5rem;
   line-height: 3.5rem;
   font-weight: 600;
@@ -91,8 +90,8 @@ header .header__button {
   color: var(--Very_Dark_Cyan);
 }
 
-.section-one .section-one__botton {
-  width: 24rem;
+.section-one .section-one__button {
+  width: 27rem;
   height: 5rem;
   margin-bottom: 4rem;
   font-size: 1.8rem;
@@ -105,6 +104,6 @@ header .header__button {
 }
 
 .section-one .section-one__img {
-  width: 32rem;
+  width: 33rem;
   /* height: 35rem; */
 }
