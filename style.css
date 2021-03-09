@@ -12,9 +12,9 @@
 }
 
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -43,23 +43,23 @@ header {
 
 header .header__logo {
   width: 12rem;
-  /* height: 3rem; */
   margin-left: 2.5rem;
+  background-repeat: no-repeat; */
+  /* height: 3rem; */
   /* background-image: url(./images/logo.svg); */
   /* background-size: 1rem;
-  background-repeat: no-repeat; */
 }
 
 header .header__button {
   width: 12rem;
   height: 3rem;
-  border-style: unset;
-  background-color: white;
-  border-radius: 1.5em;
   margin-right: 2.5rem;
+  border-style: unset;
+  border-radius: 1.5em;
+  color: var(--Very_Dark_Cyan);
   font-weight: 700;
   font-size: 1.5rem;
-  color: var(--Very_Dark_Cyan);
+  background-color: white;
   box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.08);
 }
 
@@ -138,8 +138,8 @@ header .header__button {
 
 .section-two .section-two__cards > p{
   padding: 1rem 3rem 3rem;
-  font-size: 1.3rem;
-  text-align: center;
-  line-height: 2rem;
   color: var(--Grayish_Blue);
+  font-size: 1.3rem;
+  line-height: 2rem;
+  text-align: center;
 }
