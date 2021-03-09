@@ -1,0 +1,46 @@
+.footer {
+  position: relative;
+  padding: 10rem 3rem;
+  color: white;
+  background-color: var(--Very_Dark_Cyan);
+  &__logo {
+    width: 15rem;
+    margin-bottom: 1.5rem;
+  }
+  &__social {
+    padding-bottom: 3rem;
+    span {
+      width: 1.3rem;
+      height: 1.8rem;
+      margin-right: 1.4rem;
+      padding-right: 2rem;
+    }
+    p {
+      font-size: 1.4rem;
+      display: flex;
+      text-align: left;
+      line-height: 2rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+  &__about {
+    line-height: 3rem;
+    font-size: 1.6rem;
+    ul {
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  &__social__media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    margin: 2rem;
+  }
+}

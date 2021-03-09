@@ -1,0 +1,39 @@
+@import "./header.scss";
+@import "./section-one.scss";
+@import "./section-two.scss";
+@import "./cardfooter.scss";
+@import "./footer.scss";
+
+/*1 rem = 10px
+ .1 rem = 1px
+*/
+
+:root {
+  /* ### Primary */
+  --Pink: hsl(322, 100%, 66%);
+  /* ### Neutral */
+  --Very_Pale_Cyan: hsl(193, 100%, 96%);
+  --Very_Dark_Cyan: hsl(192, 100%, 9%);
+  --Grayish_Blue: hsl(208, 11%, 55%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open sans", sans-serif;
+}
+
+.bg {
+  min-height: 100vh;
+  background: url("./images/bg-hero-mobile.svg") no-repeat top left;
+  background-size: cover;
+  background-color: var(--Very_Pale_Cyan);
+}
