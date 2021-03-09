@@ -107,3 +107,39 @@ header .header__button {
   width: 33rem;
   /* height: 35rem; */
 }
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  min-width: 32rem;
+  background-color: hsl(0deg 0% 98%);
+}
+.section-two .section-two__img {
+  width: 33rem;
+  margin: 6rem 0rem 4rem;
+  padding: 0 3rem 0;
+}
+.section-two .section-two__cards{
+  display: flex;
+  flex-direction: column;
+  margin: .5rem;
+  align-items: center;
+  background-color: white;
+  /* border: 1px solid grey; */
+  border-radius: 1rem;
+  box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.08);
+  margin: 4rem 3rem 0;
+}
+.section-two .section-two__cards > h2{
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--Very_Dark_Cyan);
+}
+
+.section-two .section-two__cards > p{
+  padding: 1rem 3rem 3rem;
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 2rem;
+  color: var(--Grayish_Blue);
+}
