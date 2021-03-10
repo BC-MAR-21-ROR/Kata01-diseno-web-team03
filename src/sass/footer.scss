@@ -1,11 +1,10 @@
 .footer {
-  position: relative;
   padding: 10rem 3rem;
   color: white;
   background-color: var(--Very_Dark_Cyan);
   &__logo {
     width: 15rem;
-    margin-bottom: 1.5rem;
+    margin: 5rem 0 3rem 0;
   }
   &__social {
     padding-bottom: 3rem;

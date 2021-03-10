@@ -34,8 +34,6 @@
   padding: 0rem 2rem 3rem 2rem;
   font-size: 2.5rem;
   line-height: 3.5rem;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
   color: var(--Very_Dark_Cyan);
 }
 .section-one__content {
@@ -79,12 +77,13 @@
   margin: 0.5rem;
   align-items: center;
   background-color: white;
-  /* border: 1px solid grey; */
   border-radius: 1rem;
   box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.08);
   margin: 4rem 3rem 0;
+  text-align: center;
 }
 .section-two__cards h2 {
+  margin-bottom: 2rem;
   font-size: 2rem;
   font-weight: 700;
   color: var(--Very_Dark_Cyan);
@@ -94,55 +93,39 @@
   color: var(--Grayish_Blue);
   font-size: 1.3rem;
   line-height: 2rem;
-  text-align: center;
 }
-
-.cardfooter {
-  display: flex;
-  position: absolute;
-  top: -10rem;
-  left: calc(50% - 16.5rem);
-  flex-direction: column;
+.section-two .card-footer {
+  --size: 18rem;
+  height: var(--size);
+  position: relative;
+  top: calc(var(--size) / 2.5);
   justify-content: center;
-  align-items: center;
-  align-content: space-between;
-  width: 90%;
-  min-width: 30rem;
-  height: 15rem;
-  padding: 3rem;
-  border-radius: 1rem;
-  background-color: white;
-  box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.08);
+  min-width: 34rem;
+  margin: 0 1.5rem;
 }
-.cardfooter h2 {
-  margin-bottom: 2rem;
-  color: var(--Very_Dark_Cyan);
-  font-weight: 700;
-  font-size: 2rem;
+.section-two .card-footer h2 {
+  font-size: 1.8rem;
 }
-.cardfooter button {
-  width: 27rem;
-  height: 5rem;
-  margin-bottom: 4rem;
+.section-two .card-footer button {
+  width: 23rem;
+  height: 4.5rem;
   border-style: unset;
   border-radius: 1.5em;
   outline: none;
   color: white;
-  font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   background-color: var(--Pink);
   box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.08);
 }
 
 .footer {
-  position: relative;
   padding: 10rem 3rem;
   color: white;
   background-color: var(--Very_Dark_Cyan);
 }
 .footer__logo {
   width: 15rem;
-  margin-bottom: 1.5rem;
+  margin: 5rem 0 3rem 0;
 }
 .footer__social {
   padding-bottom: 3rem;
@@ -211,6 +194,13 @@ body {
   background: url("./images/bg-hero-mobile.svg") no-repeat top left;
   background-size: cover;
   background-color: var(--Very_Pale_Cyan);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */

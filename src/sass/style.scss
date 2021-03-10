@@ -1,7 +1,6 @@
 @import "./header.scss";
 @import "./section-one.scss";
 @import "./section-two.scss";
-@import "./cardfooter.scss";
 @import "./footer.scss";
 
 /*1 rem = 10px
@@ -36,4 +35,11 @@ body {
   background: url("./images/bg-hero-mobile.svg") no-repeat top left;
   background-size: cover;
   background-color: var(--Very_Pale_Cyan);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
