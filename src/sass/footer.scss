@@ -23,7 +23,7 @@
     }
   }
   &__about {
-    line-height: 3rem;
+    line-height: 4rem;
     font-size: 1.6rem;
     ul {
       list-style: none;
@@ -33,13 +33,28 @@
       color: white;
     }
   }
-
   &__social__media {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    font-size: 25px;
-    color: white;
-    margin: 2rem;
+    margin: 4rem;
+
+    .circle {
+      height: 4rem;
+      width: 4rem;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      border: solid 1px white;
+      border-radius: 50%;
+      margin: 0 1rem;
+
+      i {
+        font-size: 2rem;
+      }
+    }
+  }
+  .copyright {
+    font-size: 1.3rem;
+    text-align: center;
   }
 }
