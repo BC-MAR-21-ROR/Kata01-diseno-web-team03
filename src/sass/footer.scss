@@ -1,6 +1,7 @@
 .footer {
   padding: 10rem 3rem;
   color: white;
+  z-index: 0;
   background-color: var(--Very_Dark_Cyan);
   &__logo {
     width: 15rem;

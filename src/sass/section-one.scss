@@ -1,4 +1,6 @@
 .section-one {
+  display: flex;
+  flex-direction:column;
   width: 100%;
   min-width: 32rem;
   padding: 5.5rem 3rem;
@@ -21,16 +23,13 @@
     width: 27rem;
     height: 5rem;
     margin-bottom: 4rem;
-    outline: none;
     font-size: 1.8rem;
-    font-weight: 700;
     background-color: var(--Pink);
-    border-style: unset;
-    border-radius: 1.5em;
     color: white;
-    box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.08);
   }
   &__img {
     width: 33rem;
   }
 }
+
+
