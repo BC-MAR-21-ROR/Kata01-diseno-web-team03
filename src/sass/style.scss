@@ -2,8 +2,7 @@
 @import "./section-one.scss";
 @import "./section-two.scss";
 @import "./footer.scss";
-@import "./desktop-desing.scss";
-
+// @import "./desktop-desing.scss";
 
 /*1 rem = 10px
  .1 rem = 1px
@@ -51,5 +50,4 @@ button {
   border-style: unset;
   box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.08);
   border-radius: 1.5em;
-  font-weight: 700;
 }
