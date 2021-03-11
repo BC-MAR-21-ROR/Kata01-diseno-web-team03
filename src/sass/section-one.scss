@@ -35,3 +35,25 @@
     width: 85%;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .section-one {
+    flex-direction: row;
+    justify-content: space-around;
+
+    .wrapper {
+      width: 45%;
+      text-align: left;
+      padding-right: 7rem;
+    }
+    &__title {
+      font-size: 3.4rem;
+      padding: 0 12rem 0 0;
+      padding-bottom: 3rem;
+      line-height: 3rem;
+    }
+    &__img {
+      max-width: 45%;
+    }
+  }
+}

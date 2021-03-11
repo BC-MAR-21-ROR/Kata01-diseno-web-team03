@@ -60,3 +60,34 @@
     text-align: center;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    &__social {
+      width: 33%;
+    }
+    &__about {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: row;
+      width: 33%;
+    }
+    &__social__media {
+      padding-left: 5rem;
+    }
+    .wrapper {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      width: 33%;
+
+      .copyright {
+        align-self: flex-end;
+      }
+    }
+  }
+}
