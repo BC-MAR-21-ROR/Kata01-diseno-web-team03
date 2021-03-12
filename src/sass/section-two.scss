@@ -16,6 +16,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
     width: 95%;
     min-width: 30rem;
     max-width: 33rem;
@@ -32,7 +33,6 @@
       color: var(--Very_Dark_Cyan);
     }
     p {
-      // padding: 1rem 3rem 3rem;
       margin-bottom: 2rem;
       color: var(--Grayish_Blue);
       font-size: 1.3rem;
@@ -42,13 +42,13 @@
 }
 
 .card-footer {
-  // @extend .section-two;
   --size: 18rem;
   top: calc(var(--size) / 2.5);
   justify-content: center;
   min-width: 34rem;
+  position: relative;
   height: var(--size);
-  margin: 0 1.5rem;
+  margin: 0 auto;
   h2 {
     font-size: 1.8rem;
   }
@@ -80,6 +80,10 @@
     }
     &__cards:nth-child(even) {
       flex-direction: row-reverse;
+    }
+    .card-footer {
+      flex-direction: column;
+      width: 50%;
     }
   }
 }
